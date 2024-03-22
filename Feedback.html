@@ -1,0 +1,113 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Feedback</title>
+<style>
+  
+body {
+  font-family: Arial;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+   
+   }
+
+input[type=submit] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+.feed{
+  font-size: 25px;color: #2e8b57;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+footer{
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgreen;
+  color: white;
+  font-size: 20px;
+}
+
+</style>
+</head>
+<body>
+
+
+
+<div class="container">
+  <form action="/action_page.php">
+    <fieldset style="border: 2px solid #b0b0b0;">
+
+    <legend class="feed">Feedback</legend>
+
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="Email">Email</label>
+    <input type="text" id="Email" name="Email" placeholder="Your Email...">
+
+    <label for="Districts">Districts</label>
+
+
+    <select id="Districts" name="Districts">
+
+
+      <option value=" Ampara"> Ampara</option>
+      <option value=" Anuradhapura">Anuradhapura </option>
+      <option value=" Badulla"> Badulla</option>
+      <option value=" Batticloa"> Batticloa</option>
+      <option value=" Colombo"> Colombo</option>
+      <option value="Galle ">Galle </option>
+      <option value=" Gampaha"> Gampaha</option>
+      <option value="Hambantota "> Hambantota</option>
+      <option value=" Jaffna"> Jaffna</option>
+      <option value=" Kalutara">Kalutara </option>
+      <option value="Kandy "> Kandy</option>
+      <option value="Kegalle "> Kegalle</option>
+      <option value=" Kilinochchi">Kilinochchi </option>
+      <option value="Kurunagala "> Kurunagala</option>
+      <option value="Mannar "> Mannar</option>
+      <option value="Matale "> Matale</option>
+      <option value=" Matara">Matara </option>
+      <option value="Monaragala">Monaragala </option>
+      <option value=" Mullaitive"> Mullaitive</option>
+      <option value=" Nuwara Eliya">Nuwara Eliya </option>
+      <option value=" Polonnaruwa">Polonnaruwa </option>
+      <option value="Puttalam">Puttalam </option>
+      <option value="Ratnapura"> Ratnapura</option>
+      <option value=" Tricomalee">Tricomalee </option>
+      <option value="Vavuniya "> </option>
+
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write comments.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+    </fieldset>
+  </form>
+</div>
+<footer>Slices of Heaven,All rights reserved</footer>
+
+</body>
+</body>
+</html>
